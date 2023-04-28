@@ -20,4 +20,4 @@ jobs:
         run: |
           npm run prism &
           sleep 10 &&
-          curl -i http://127.0.0.1:4010/pets/123
+          curl -s -D "/dev/stderr" http://127.0.0.1:4010/pets/123 | json_pp
