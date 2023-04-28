@@ -1,0 +1,15 @@
+{
+  "name": "prism-gha-curl-test",
+  "version": "1.0.0",
+  "description": "PrismをGitHub Actions内で起動してcurlを送れるかをテストする",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prism": "prism mock https://raw.githack.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore-expanded.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@stoplight/prism-cli": "^4.12.0"
+  }
+}
